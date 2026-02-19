@@ -84,7 +84,7 @@ Example using GitHub Pages:
 4. Accessibility features (ARIA roles, keyboard navigation, screen reader support) can be improved.
 5. No backend authentication system is implemented.
 6. Some layout spacing may slightly vary across different browsers.
-7. Horizontal scroll in the Reviews section depends on browser behavior.
+7. Reviews section does  not contain the profile images as shown in the figma file.
 
 
 
