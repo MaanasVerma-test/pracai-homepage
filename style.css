@@ -49,7 +49,7 @@ html {
 /* NAVBAR */
 /* ============================= */
 .navbar {
-  background: #0b1023;
+  background: #000000;
   padding: 18px 0;
   position: sticky;
   top: 0;
@@ -67,6 +67,20 @@ html {
   font-size: 1.5rem;
   color: #39ff14;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #39ff14;
+}
+
+.nav-logo {
+  width: 32px;
+  height: auto;
+}
+
 
 .nav-links a {
   margin: 0 20px;
@@ -248,15 +262,14 @@ html {
   background: #050816;
 }
 
-.courses-section 
-.section-subtitle {
+.courses-section .section-subtitle {
   background: linear-gradient(90deg, #39ff14, #00d1ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 24px;
-  letter-spacing: 1.5px;
+  font-size: 28px;   /* slightly bigger */
+  font-weight: 700;
+  letter-spacing: 2px;
 }
-
 
 
 .course-card {
@@ -344,6 +357,12 @@ html {
   color: #bbb;
   cursor: not-allowed;
 }
+.gradient-text {
+  background: linear-gradient(90deg, #39ff14, #00d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* ============================= */
 /* ABOUT SECTION */
 /* ============================= */
@@ -359,6 +378,9 @@ html {
    background: linear-gradient(90deg, #39ff14, #00d1ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+font-size: 28px;
+  font-weight: 700;
+
 }
 
 .about-content {
@@ -425,6 +447,8 @@ html {
 
 .features-section .section-subtitle {
   color: #39ff14;
+font-size: 28px;
+  font-weight: 700;
 }
 
 .feature-row {
@@ -466,6 +490,12 @@ html {
   line-height: 1.7;
   max-width: 500px;
 }
+.gradient-text {
+  background: linear-gradient(90deg, #39ff14, #00d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 /* ============================= */
 /* FAQ SECTION */
@@ -484,12 +514,17 @@ html {
   font-size: 24px;
   letter-spacing: 2px;
   margin-bottom: 15px;
+font-size: 28px;
+  font-weight: 700;
+
+
 }
 
 .faq-title {
   font-size: 2.5rem;
   margin-bottom: 60px;
 }
+
 
 .faq-container {
   max-width: 900px;
@@ -642,6 +677,7 @@ footer {
   gap: 20px;
   overflow-x: auto;
   padding-bottom: 20px;
+
 }
 
 .review-card {
@@ -664,6 +700,12 @@ footer {
   color: #facc15;
   margin-bottom: 10px;
 }
+.reviews .gradient-text {
+  font-size: 36px;   /* Increase size */
+  font-weight: 700;
+}
+
+
 
 /* ============================= */
 /* CTA SECTION */
@@ -690,6 +732,11 @@ footer {
   margin-bottom: 20px;
   color: #cbd5e1;
 }
+.cta-logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
 
 /* ============================= */
 /* FOOTER */
